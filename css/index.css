@@ -21,7 +21,9 @@
     z-index: 999;
 }
 
-.navbar-wrapper .logo {}
+.navbar-wrapper .logo {
+    width: 200px;
+}
 
 .navbar-wrapper .logo img {
     width: 50px;
@@ -41,6 +43,9 @@
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+.navbar-wrapper ul.navbar li a.active {
+    color: #f37023;
 }
 
 .navbar-wrapper ul.navbar li a:hover {
@@ -72,7 +77,9 @@
 
 .navbar-wrapper ul.navbar li.dropdown .dropdown-content li a {}
 
-.navbar-wrapper .subscribe {}
+.navbar-wrapper .subscribe {
+    width: 200px;
+}
 
 .navbar-wrapper .subscribe a.btn-subscribe {
     color: white;
@@ -93,7 +100,6 @@
 
 .top-wrapper {
     text-align: center;
-    padding: 80px;
     padding-top: 100px;
 }
 
@@ -288,4 +294,11 @@ button {
 button:hover {
     background-color: #f37023;
     color: white;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
